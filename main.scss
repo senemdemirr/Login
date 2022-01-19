@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$inputcolor:#DADAF2;
+$inputfont:'Poppins',san-serif;
+body{
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .container{
+        background-color: #FFFFFF;
+        width: 454px;
+        height: 670px;
+        border-radius: 12px;
+        border: none;
+        box-shadow: 0px 24px 73px 0px #17164514;
+        h3{
+            position: relative;
+            top: 42px;
+            left: 160px;
+            color: #171645;
+            font-style: normal;
+            font-size: 33px;
+            line-height: 40.22px;
+            font-weight: 900;
+            font-family: 'Merriweather',sans-serif;
+            
+        }
+        .inside{
+            width: 310px;
+            height: 520px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            left: 72px;
+            top: 70px;
+            form{
+                input{
+                    width: 310px;
+                    height: 55px;
+                    margin-bottom: 12px;
+                    padding: 20px;
+                    border: 1px solid $inputcolor;
+                    border-radius: 4px;
+                    background-color: #F8F8F8;
+                    &::placeholder{
+                        font-family: 'Poppins',sans-serif;
+                        font-size: 12px;
+                        line-height: 27px;
+                        font-style: normal;
+                        font-weight: 500;
+                        color: #171645;
+                        opacity: 70%;
+                    }
+                }
+                .login{
+                    width: 310px;
+                    height: 60px;
+                    background-color: #171645;
+                    border-radius: 4px;
+                    text-align: center;
+                    .loginspan{
+                        font-family: 'Poppins',sans-serif;
+                        font-size: 12px;
+                        line-height: 22px;
+                        font-style: normal;
+                        font-weight: 500;
+                        color: #FFFFFF;
+                        opacity: 100%;
+                    }
+
+                }
+            }
+            span{
+                font-family: 'Poppins',sans-serif;
+                font-size: 12px;
+                line-height: 22px;
+                font-style: normal;
+                font-weight: 500;
+                color: #171645;
+                opacity: 50%;
+                margin-top: 12px;
+                margin-bottom: 22px;
+            }
+            form{
+                button{
+                    background-color: #F8F8F8;
+                    width: 310px;
+                    height: 60px;
+                    margin-bottom: 12px;
+                    border-radius: 4px;
+                    text-align: center;
+                    border: 1px solid $inputcolor;
+                    img{
+                        width: 18px;
+                        height: 18px;
+                        position: relative;
+                        top: 2px;
+                    }
+                    .span2{
+                        font-family: 'Poppins',sans-serif;
+                        font-size: 13px;
+                        line-height: 27px;
+                        font-style: normal;
+                        font-weight: 500;
+                        color: #171645;
+                        opacity: 100%;
+                        position: relative;
+                        top: -2px;
+                    }
+                }
+            }
+        }
+        .bottomspan{
+            color: #171645;
+            position: relative;
+            left: 83px;
+            top: 42px;
+            font-size: 14px;
+            font-family: 'Poppins',sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            line-height: 27px;
+        }
+    }
+}
